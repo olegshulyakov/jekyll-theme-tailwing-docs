@@ -3,4 +3,4 @@ logo: /assets/img/logo.png
 description: A clean, modern Jekyll theme inspired by Tailwind CSS documentation.
 show_downloads: true
 google_analytics:
-remote_theme: olegshulyakov/jekyll-theme-tailwing-docs
+remote_theme: olegshulyakov/jekyll-theme-tailwind-docs

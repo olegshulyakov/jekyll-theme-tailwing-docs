@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |s|
-  s.name          = "jekyll-theme-tailwing-docs"
+  s.name          = "jekyll-theme-tailwind-docs"
   s.version       = "0.1.0"
   s.license       = "MIT"
   s.authors       = ["Oleg Shulyakov"]
   s.email         = ["olegshulyakov@users.noreply.github.com"]
-  s.homepage      = "https://github.com/olegshulyakov/jekyll-theme-tailwing-docs"
+  s.homepage      = "https://github.com/olegshulyakov/jekyll-theme-tailwind-docs"
   s.summary       = "Tailwind Docs Jekyll Theme"
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|

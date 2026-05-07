@@ -9,13 +9,13 @@ To use the Tailwind Docs theme:
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    theme: jekyll-theme-tailwing-docs
+    theme: jekyll-theme-tailwind-docs
     ```
 
 2. Add this line to your site's `Gemfile`:
 
     ```ruby
-    gem "jekyll-theme-tailwing-docs"
+    gem "jekyll-theme-tailwind-docs"
     ```
 
 3. Execute:
@@ -55,8 +55,8 @@ If you'd like to add your own custom styles:
 
 If you'd like to change the theme's HTML layout:
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/olegshulyakov/jekyll-theme-tailwing-docs/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/olegshulyakov/jekyll-theme-tailwing-docs/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/olegshulyakov/jekyll-theme-tailwing-docs/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/olegshulyakov/jekyll-theme-tailwind-docs/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/olegshulyakov/jekyll-theme-tailwind-docs/blob/master/_layouts/default.html).
+2. For more extensive changes, [copy the original template](https://github.com/olegshulyakov/jekyll-theme-tailwind-docs/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
 3. Create a file called `/_layouts/default.html` in your site
 4. Paste the default layout content copied in the first step
 5. Customize the layout as you'd like
@@ -67,7 +67,7 @@ The Tailwind Docs theme is intended to make it quick and easy for users to creat
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/olegshulyakov/jekyll-theme-tailwing-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/olegshulyakov/jekyll-theme-tailwind-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
 ## Development
 

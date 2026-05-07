@@ -13,8 +13,8 @@ bundle update
 
 # Build a new gem archive.
 
-rm -rf jekyll-theme-tailwing-docs-*.gem
-gem build -q jekyll-theme-tailwing-docs.gemspec
+rm -rf jekyll-theme-tailwind-docs-*.gem
+gem build -q jekyll-theme-tailwind-docs.gemspec
 
 # Make sure we're on the master branch.
 
@@ -25,7 +25,7 @@ gem build -q jekyll-theme-tailwing-docs.gemspec
 
 # Figure out what version we're releasing.
 
-tag=v`ls jekyll-theme-tailwing-docs-*.gem | sed 's/^jekyll-theme-tailwing-docs-\(.*\)\.gem$/\1/'`
+tag=v`ls jekyll-theme-tailwind-docs-*.gem | sed 's/^jekyll-theme-tailwind-docs-\(.*\)\.gem$/\1/'`
 
 # Make sure we haven't released this version before.
 
@@ -38,5 +38,5 @@ git fetch -t origin
 
 # Tag it and bag it.
 
-gem push jekyll-theme-tailwing-docs-*.gem && git tag "$tag" &&
+gem push jekyll-theme-tailwind-docs-*.gem && git tag "$tag" &&
   git push origin master && git push origin "$tag"
