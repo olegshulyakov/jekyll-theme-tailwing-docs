@@ -1,6 +1,6 @@
-title: Minimal theme
+title: Tailwind Docs Theme
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+description: A clean, modern Jekyll theme inspired by Tailwind CSS documentation.
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tailwing-docs
